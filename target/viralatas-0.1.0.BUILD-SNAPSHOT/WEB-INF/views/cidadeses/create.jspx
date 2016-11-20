@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_roo_viralatas_domain_Cidades" modelAttribute="cidades" path="/cidadeses" render="${empty dependencies}" z="5dcjwKZlo4xZnWDFAT9UTXnJ1dw=">
+        <field:simple field="enderecoss" id="c_com_roo_viralatas_domain_Cidades_enderecoss" messageCode="entity_reference_not_managed" messageCodeAttribute="Enderecos" z="enPtX3Zgh8hN7ke/CeikftOz3nc="/>
+        <field:simple field="feirass" id="c_com_roo_viralatas_domain_Cidades_feirass" messageCode="entity_reference_not_managed" messageCodeAttribute="Feiras" z="V+WUpIzNgRfPEq29UebZJw1Az4M="/>
+        <field:simple field="possiveisLocaiss" id="c_com_roo_viralatas_domain_Cidades_possiveisLocaiss" messageCode="entity_reference_not_managed" messageCodeAttribute="Possiveis Locais" z="gDWNNukQC2hdSqANYnFa52L4qpU="/>
+        <field:input field="nome" id="c_com_roo_viralatas_domain_Cidades_nome" z="hAxplf2qJMyHIaxDpp6xJXn2bBo="/>
+        <field:input field="estado" id="c_com_roo_viralatas_domain_Cidades_estado" z="NIevO+g3W2DwArnZXm8C+Jbbjsk="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_roo_viralatas_domain_Cidades" render="${not empty dependencies}" z="YpYmVRKZUI4L0xp6TeV4jGdT248="/>
+</div>

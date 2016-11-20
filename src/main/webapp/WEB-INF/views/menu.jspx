@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_feiras" z="SyNpVm9gyxfU2ikNjq9sgdMq2EE=">
+            <menu:item id="i_feiras_new" messageCode="global_menu_new" url="/feirases?form" z="wdOO/A+2PvVoljrqbkwTY/7PrDI="/>
+            <menu:item id="i_feiras_list" messageCode="global_menu_list" url="/feirases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="hP+WJzE1MbRTv0qNtewbBZFX+90="/>
+        </menu:category>
+        <menu:category id="c_acompanhamentos" z="JfqnsMI4RTDiYxM8xDQ5TOG2tto=">
+            <menu:item id="i_acompanhamentos_new" messageCode="global_menu_new" url="/acompanhamentoses?form" z="4noGMbVAvZCjOojR8fi7sKn3gDI="/>
+            <menu:item id="i_acompanhamentos_list" messageCode="global_menu_list" url="/acompanhamentoses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="T27UMXOPGFNbZUBw6bQwD27fAOw="/>
+        </menu:category>
+        <menu:category id="c_enderecos" z="2sgdMn2auYLF0ADA9gssTsLRPMI=">
+            <menu:item id="i_enderecos_new" messageCode="global_menu_new" url="/enderecoses?form" z="cXFPYAK1HondtWfq0D8oq2rIZYg="/>
+            <menu:item id="i_enderecos_list" messageCode="global_menu_list" url="/enderecoses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="5JHr7cRmPnc8hrb0h17G5W5q3xY="/>
+        </menu:category>
+        <menu:category id="c_historicofeiraanimais" z="/tQ/I1vVXREK1dt7BoWwKnZIKuQ=">
+            <menu:item id="i_historicofeiraanimais_new" messageCode="global_menu_new" url="/historicofeiraanimaises?form" z="rlMDXkpQMVYgq5gXvdaOs57I/XU="/>
+            <menu:item id="i_historicofeiraanimais_list" messageCode="global_menu_list" url="/historicofeiraanimaises?page=1&amp;size=${empty param.size ? 10 : param.size}" z="8/sYTEwf3GYE9zIgo5crRqGI+hE="/>
+        </menu:category>
+        <menu:category id="c_usuarios" z="GfJ5+u/kX2Psr4D/O+u5sMzsxsg=">
+            <menu:item id="i_usuarios_new" messageCode="global_menu_new" url="/usuarioses?form" z="vLXcWU4ujEYnocYuB5vVXLUVIIg="/>
+            <menu:item id="i_usuarios_list" messageCode="global_menu_list" url="/usuarioses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="PXFZopNFrkSSKm50pxTYBtJxB1Q="/>
+        </menu:category>
+        <menu:category id="c_adotantes" z="USvB258eL1DFqj0Uds6y9kvezvk=">
+            <menu:item id="i_adotantes_new" messageCode="global_menu_new" url="/adotanteses?form" z="MSp+pfgxGdUom2fm8P5sY+k8P+8="/>
+            <menu:item id="i_adotantes_list" messageCode="global_menu_list" url="/adotanteses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="C0L1rFQR9Fb2gqGKhG9sPIs1uCA="/>
+        </menu:category>
+        <menu:category id="c_moradias" z="PuK4I1sS8FvgkurCJ80m4z0CWGU=">
+            <menu:item id="i_moradias_new" messageCode="global_menu_new" url="/moradiases?form" z="QdD3Dk/eZdCSEwlqeHkBaaz+qFs="/>
+            <menu:item id="i_moradias_list" messageCode="global_menu_list" url="/moradiases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="oJsrmj1NywXt5rtpqPsqwESXJw0="/>
+        </menu:category>
+        <menu:category id="c_prontuarios" z="PBbn2lbJMQdHPA4ZDclJyQZoFSQ=">
+            <menu:item id="i_prontuarios_new" messageCode="global_menu_new" url="/prontuarioses?form" z="jLaQIHIm9HeJqsvJf1B/WI7jQ+M="/>
+            <menu:item id="i_prontuarios_list" messageCode="global_menu_list" url="/prontuarioses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="JjUFz3/qLmz3p71DqgJVaYLCZCg="/>
+        </menu:category>
+        <menu:category id="c_tipomoradias" z="zYoeuEdeAkSx0R2MQu+s2xrsrDo=">
+            <menu:item id="i_tipomoradias_new" messageCode="global_menu_new" url="/tipomoradiases?form" z="P2SQpaR/l0PX665qh+P4/i6fXzc="/>
+            <menu:item id="i_tipomoradias_list" messageCode="global_menu_list" url="/tipomoradiases?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YTWDkgmGdeiEtDBl0okvdPCGYJQ="/>
+        </menu:category>
+        <menu:category id="c_situacoes" z="O5aZy3VNy8l6MhH6NwPofyg5DZQ=">
+            <menu:item id="i_situacoes_new" messageCode="global_menu_new" url="/situacoeses?form" z="tEl1gvxjGesc0zWsCnUPl4v9ez8="/>
+            <menu:item id="i_situacoes_list" messageCode="global_menu_list" url="/situacoeses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="G2+ACEJVWSk4IAZiGG5DRh4lv7U="/>
+        </menu:category>
+        <menu:category id="c_cidades" z="H0oFJyH4a2JlqQ+Qa/GPNkn802w=">
+            <menu:item id="i_cidades_new" messageCode="global_menu_new" url="/cidadeses?form" z="pBvII0Q4qdTn0ne0jzHm8SwNz98="/>
+            <menu:item id="i_cidades_list" messageCode="global_menu_list" url="/cidadeses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="3e9esY8suq7wIHrgDeNbypWjhkw="/>
+        </menu:category>
+        <menu:category id="c_status" z="XzEnvQ4n4916mWFCszpAxymOJls=">
+            <menu:item id="i_status_new" messageCode="global_menu_new" url="/statuses?form" z="6KKSWSWkKNkfIXGi3tBFfU6it68="/>
+            <menu:item id="i_status_list" messageCode="global_menu_list" url="/statuses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="qv84Ee4UJYpTszeuYd3LIUKv4cg="/>
+        </menu:category>
+        <menu:category id="c_possiveislocais" z="qg4H9ZNqPGBP8mEPP3HPnXcdjtQ=">
+            <menu:item id="i_possiveislocais_new" messageCode="global_menu_new" url="/possiveislocaises?form" z="pO6Cxy6zQ4+7xNyXxHdzM8LtFWM="/>
+            <menu:item id="i_possiveislocais_list" messageCode="global_menu_list" url="/possiveislocaises?page=1&amp;size=${empty param.size ? 10 : param.size}" z="WnS5/DTBXJA0hrxqL+NGOjO5wgw="/>
+        </menu:category>
+        <menu:category id="c_animais" z="Gyc8pbTBd6OvXi1ZYEpg9q3bBHg=">
+            <menu:item id="i_animais_new" messageCode="global_menu_new" url="/animaises?form" z="A9jTOfEM1Qc1ttppLxotAdaqefQ="/>
+            <menu:item id="i_animais_list" messageCode="global_menu_list" url="/animaises?page=1&amp;size=${empty param.size ? 10 : param.size}" z="lsTqDqx7trldNOd7Cn2pGRPpu8k="/>
+        </menu:category>
+        <menu:category id="c_solicitacaoadocoes" z="GwFXdOebbq792ON4QQPUSxrEVB0=">
+            <menu:item id="i_solicitacaoadocoes_new" messageCode="global_menu_new" url="/solicitacaoadocoeses?form" z="Bi6KrR7PiIxiHM99y48q65uq994="/>
+            <menu:item id="i_solicitacaoadocoes_list" messageCode="global_menu_list" url="/solicitacaoadocoeses?page=1&amp;size=${empty param.size ? 10 : param.size}" z="TheofoY9TwHA5PiUaz3qvXx+wTc="/>
+        </menu:category>
+    </menu:menu>
+</div>

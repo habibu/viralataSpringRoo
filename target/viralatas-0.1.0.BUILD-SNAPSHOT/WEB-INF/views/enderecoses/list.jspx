@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_Enderecos" items="${enderecoses}" z="dfTLmro3el9HZRp31lrqLp/Vvvg=">
+        <table:table data="${enderecoses}" id="l_com_roo_viralatas_domain_Enderecos" path="/enderecoses" typeIdFieldName="idEndereco" z="U9qryAbHqQDORm0Laj/zuKT7Y/Q=">
+            <table:column id="c_com_roo_viralatas_domain_Enderecos_idUsuarioUsuario" property="idUsuarioUsuario" z="dZUIP7m3Nw68HSwi80tCw9oQDHo="/>
+            <table:column id="c_com_roo_viralatas_domain_Enderecos_idCidadeCidade" property="idCidadeCidade" z="XZbBtvPapQiWv6mHdkCL2W0nSLM="/>
+            <table:column id="c_com_roo_viralatas_domain_Enderecos_rua" property="rua" z="3CTZaEBU0uPsu9YLqpFqbhO4+y8="/>
+            <table:column id="c_com_roo_viralatas_domain_Enderecos_numero" property="numero" z="cfk9x7RlzFErWiqwLBHZWkAQR/w="/>
+            <table:column id="c_com_roo_viralatas_domain_Enderecos_complemento" property="complemento" z="ePJ9oSm4YMpaQwqrrkSZp/kUeYQ="/>
+        </table:table>
+    </page:list>
+</div>

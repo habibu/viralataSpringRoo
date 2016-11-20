@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_Animais" items="${animaises}" z="KIKUcZpIAFslnt9ZM62hY/w3BXw=">
+        <table:table data="${animaises}" id="l_com_roo_viralatas_domain_Animais" path="/animaises" typeIdFieldName="idAnimal" z="gvx/Tek6kAAv7UYVZaU+JywFwUc=">
+            <table:column id="c_com_roo_viralatas_domain_Animais_idFeiraFeira" property="idFeiraFeira" z="4muM7AnDoqMczWky7fDJr5bVyHI="/>
+            <table:column id="c_com_roo_viralatas_domain_Animais_nome" property="nome" z="XVzkRjbTN7duWqAn3yRsDEJ0iIY="/>
+            <table:column date="true" dateTimePattern="${animais_datanascimento_date_format}" id="c_com_roo_viralatas_domain_Animais_dataNascimento" property="dataNascimento" z="5yT3VgV5o9vKqfAYOKk052YX0eg="/>
+        </table:table>
+    </page:list>
+</div>

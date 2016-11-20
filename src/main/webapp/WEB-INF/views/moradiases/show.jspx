@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_viralatas_domain_Moradias" object="${moradias}" path="/moradiases" z="NP6bi4yYsPEyx0LXfO8oW7LfhWg=">
+        <field:display field="idAdotanteAdotante" id="s_com_roo_viralatas_domain_Moradias_idAdotanteAdotante" object="${moradias}" z="4/wqm8nqxTU2rLkCS2twzCWKAeE="/>
+        <field:display field="idEnderecoEndereco" id="s_com_roo_viralatas_domain_Moradias_idEnderecoEndereco" object="${moradias}" z="7mPkMS0G/M+ERVv9wtiQClDHwQA="/>
+        <field:display field="idTipoMoradiaTipoMoradia" id="s_com_roo_viralatas_domain_Moradias_idTipoMoradiaTipoMoradia" object="${moradias}" z="A3ForW6w/It6H+ShJtmpgc+A2TM="/>
+    </page:show>
+</div>

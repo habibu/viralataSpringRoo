@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_viralatas_domain_Enderecos" idField="idEndereco" modelAttribute="enderecos" path="/enderecoses" versionField="none" z="Qb2/qNuk14upB6gXGRcyK6ul6dY=">
+        <field:simple field="moradiass" id="c_com_roo_viralatas_domain_Enderecos_moradiass" messageCode="entity_reference_not_managed" messageCodeAttribute="Moradias" z="zhCuzoMg1VFZJVmXb6Ns0U0pcHs="/>
+        <field:select field="idUsuarioUsuario" id="c_com_roo_viralatas_domain_Enderecos_idUsuarioUsuario" itemValue="idUsuario" items="${usuarioses}" path="/usuarioses" z="INlAq0ovnT0XYRLDAa/K7cLVCQU="/>
+        <field:select field="idCidadeCidade" id="c_com_roo_viralatas_domain_Enderecos_idCidadeCidade" itemValue="idCidade" items="${cidadeses}" path="/cidadeses" z="w2jW8gYK5KxbpHGvtgwTFDeJBsY="/>
+        <field:input field="rua" id="c_com_roo_viralatas_domain_Enderecos_rua" z="DSAsBS69oL0ZGmK8cMc0EYtyrSc="/>
+        <field:input field="numero" id="c_com_roo_viralatas_domain_Enderecos_numero" validationMessageCode="field_invalid_integer" z="hrCr51h/xpD1SKbavlXYSrlaC4A="/>
+        <field:input field="complemento" id="c_com_roo_viralatas_domain_Enderecos_complemento" z="aRRn8WPajBjtR4lvDa5tI9uTypw="/>
+        <field:input field="cep" id="c_com_roo_viralatas_domain_Enderecos_cep" validationMessageCode="field_invalid_integer" z="td1oQw1GOEg+RX6tVcfLB5EdQDw="/>
+        <field:input field="areaMoradia" id="c_com_roo_viralatas_domain_Enderecos_areaMoradia" validationMessageCode="field_invalid_number" z="OP++cSPAOubTqXAKzlU/dH5fH80="/>
+        <field:input field="tipoEndereco" id="c_com_roo_viralatas_domain_Enderecos_tipoEndereco" z="dL78+IESureIN0LD8gtQiq/lZBA="/>
+        <field:input field="bairro" id="c_com_roo_viralatas_domain_Enderecos_bairro" z="peZZR5i6z9ezk79AuAmSO1EypOw="/>
+        <field:input field="telefone" id="c_com_roo_viralatas_domain_Enderecos_telefone" z="fzkyL11a/QWLe5gmg4IS7kEYn7I="/>
+        <field:checkbox field="ativo" id="c_com_roo_viralatas_domain_Enderecos_ativo" z="49oOWjLSOYUg4msdTDCI4gIhoXY="/>
+    </form:update>
+</div>

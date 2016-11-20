@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_viralatas_domain_Feiras" idField="idFeira" modelAttribute="feiras" path="/feirases" versionField="none" z="s7nSVfapOJrzqDqPDal3yKuxrc8=">
+        <field:simple field="animaiss" id="c_com_roo_viralatas_domain_Feiras_animaiss" messageCode="entity_reference_not_managed" messageCodeAttribute="Animais" z="2xa+TlVgBEUNatXkwaIJ1I0PfSc="/>
+        <field:simple field="historicoFeiraAnimaiss" id="c_com_roo_viralatas_domain_Feiras_historicoFeiraAnimaiss" messageCode="entity_reference_not_managed" messageCodeAttribute="Historico Feira Animais" z="Nz1/+d4JvUj71J83UH4n6OT8/L0="/>
+        <field:simple field="solicitacaoAdocoeses" id="c_com_roo_viralatas_domain_Feiras_solicitacaoAdocoeses" messageCode="entity_reference_not_managed" messageCodeAttribute="Solicitacao Adocoes" z="M9jTxACvwz95acKJcgB+hBRsnL8="/>
+        <field:select field="idCidadeCidade" id="c_com_roo_viralatas_domain_Feiras_idCidadeCidade" itemValue="idCidade" items="${cidadeses}" path="/cidadeses" z="5pLXoX3knGvK+VwJsLYLpaq+jLo="/>
+        <field:input field="nomeFeira" id="c_com_roo_viralatas_domain_Feiras_nomeFeira" z="Yqi5rpWFZGz53OUnsGdF7IwqorY="/>
+        <field:datetime dateTimePattern="${feiras_datainicio_date_format}" field="dataInicio" id="c_com_roo_viralatas_domain_Feiras_dataInicio" required="true" z="YBvwtp8rLDIx0q9HGA49DUKqG8E="/>
+        <field:datetime dateTimePattern="${feiras_dataencerramento_date_format}" field="dataEncerramento" id="c_com_roo_viralatas_domain_Feiras_dataEncerramento" z="nM4KYx8mU53s4Q3rtEqlHDCylVw="/>
+        <field:input field="numeroanimais" id="c_com_roo_viralatas_domain_Feiras_numeroanimais" validationMessageCode="field_invalid_integer" z="5PWQdbUCwTC2vrovrZc2QjApuOM="/>
+        <field:input field="animaisAdotados" id="c_com_roo_viralatas_domain_Feiras_animaisAdotados" validationMessageCode="field_invalid_integer" z="f9GgsW7LCjm1uxZb5O6eQe+JRfg="/>
+        <field:input field="longitude" id="c_com_roo_viralatas_domain_Feiras_longitude" validationMessageCode="field_invalid_number" z="lBV1rFGpm5V6VaFJxRwf2al6ciA="/>
+        <field:input field="latitude" id="c_com_roo_viralatas_domain_Feiras_latitude" validationMessageCode="field_invalid_number" z="lYhqAjfcQWMc2nCUxJmctZ2lVss="/>
+        <field:input field="idpossiveisLocaisPossiveisLocais" id="c_com_roo_viralatas_domain_Feiras_idpossiveisLocaisPossiveisLocais" validationMessageCode="field_invalid_integer" z="592L2H+qns1+x/G6vlzg1F8iD10="/>
+        <field:checkbox field="ativo" id="c_com_roo_viralatas_domain_Feiras_ativo" z="2RLdi69K0BeZYerr88amG3tj6hA="/>
+    </form:update>
+</div>

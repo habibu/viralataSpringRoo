@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_roo_viralatas_domain_Adotantes" modelAttribute="adotantes" path="/adotanteses" render="${empty dependencies}" z="hym6r9hD/Gf7jQV5iCA9MAWvoGE=">
+        <field:simple field="moradiass" id="c_com_roo_viralatas_domain_Adotantes_moradiass" messageCode="entity_reference_not_managed" messageCodeAttribute="Moradias" z="q5Uy7FaC8YbpigcpSUWPVpn+CDA="/>
+        <field:select field="idUsuarioUsuario" id="c_com_roo_viralatas_domain_Adotantes_idUsuarioUsuario" itemValue="idUsuario" items="${usuarioses}" path="/usuarioses" z="8v3aKpI0zhVrlj344FPpwYoHAB4="/>
+        <field:input field="rendaFamiliar" id="c_com_roo_viralatas_domain_Adotantes_rendaFamiliar" validationMessageCode="field_invalid_number" z="JU5Sr2bt1nUxJ07EF4/p9GqFAs0="/>
+        <field:input field="criancasEmCasa" id="c_com_roo_viralatas_domain_Adotantes_criancasEmCasa" validationMessageCode="field_invalid_integer" z="KevA0hlF1NanB+BwKkR1bb2bHi8="/>
+        <field:input field="quantidadeanimais" id="c_com_roo_viralatas_domain_Adotantes_quantidadeanimais" validationMessageCode="field_invalid_integer" z="c+AYjPeeEV1y8P6RJcXk+0RLuSE="/>
+        <field:input field="reputacao" id="c_com_roo_viralatas_domain_Adotantes_reputacao" validationMessageCode="field_invalid_integer" z="eEwH+v3DDyLih4xfdH0GCbnHCgI="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_roo_viralatas_domain_Adotantes" render="${not empty dependencies}" z="4RPj+9/AXYgSupL76ynr/ApgqIA="/>
+</div>

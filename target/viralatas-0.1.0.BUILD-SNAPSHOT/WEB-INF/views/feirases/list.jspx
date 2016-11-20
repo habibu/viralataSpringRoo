@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_Feiras" items="${feirases}" z="EVmxNS6sBAAcroLDi3/Ovb6yP3c=">
+        <table:table data="${feirases}" id="l_com_roo_viralatas_domain_Feiras" path="/feirases" typeIdFieldName="idFeira" z="SJUDcH/+3iy6HVgf0ElRCkTnwkk=">
+            <table:column id="c_com_roo_viralatas_domain_Feiras_idCidadeCidade" property="idCidadeCidade" z="qweNcF/6DXwNSjI1B5/3KMFd164="/>
+            <table:column id="c_com_roo_viralatas_domain_Feiras_nomeFeira" property="nomeFeira" z="o7y7s6ZCppT0kIkqRiZifdfLswM="/>
+            <table:column calendar="true" dateTimePattern="${feiras_datainicio_date_format}" id="c_com_roo_viralatas_domain_Feiras_dataInicio" property="dataInicio" z="dm4Q//yaTS9TlaMnxOf8mAB3pXE="/>
+        </table:table>
+    </page:list>
+</div>

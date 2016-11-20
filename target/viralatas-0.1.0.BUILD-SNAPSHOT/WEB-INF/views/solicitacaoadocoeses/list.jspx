@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_SolicitacaoAdocoes" items="${solicitacaoadocoeses}" z="pMS9NyzjoeAbxKtGtffCg3oaE4k=">
+        <table:table data="${solicitacaoadocoeses}" id="l_com_roo_viralatas_domain_SolicitacaoAdocoes" path="/solicitacaoadocoeses" typeIdFieldName="idSolicitacaoAdocao" z="y/pK26l7oYBCVeBxHmwZSLd0U9M=">
+            <table:column id="c_com_roo_viralatas_domain_SolicitacaoAdocoes_idUsuarioUsuario" property="idUsuarioUsuario" z="VYzW9Fzl3U+rt+jAas1Dy0N+GeQ="/>
+            <table:column id="c_com_roo_viralatas_domain_SolicitacaoAdocoes_idFeiraFeira" property="idFeiraFeira" z="kzDp5jsDrADSGObLg0NlVdtbUwA="/>
+            <table:column id="c_com_roo_viralatas_domain_SolicitacaoAdocoes_idAnimalAnimal" property="idAnimalAnimal" z="lpUyP9ZePl0xAT7+2k6rmG68JPM="/>
+            <table:column id="c_com_roo_viralatas_domain_SolicitacaoAdocoes_idstatusStatus" property="idstatusStatus" z="L0IIv+SPJR7o7te2B+f1yrK9Lho="/>
+            <table:column date="true" dateTimePattern="${solicitacaoAdocoes_datasolicitacaoadocao_date_format}" id="c_com_roo_viralatas_domain_SolicitacaoAdocoes_dataSolicitacaoAdocao" property="dataSolicitacaoAdocao" z="M85NC2lpgztpNFTieLCyKvW69bw="/>
+            <table:column id="c_com_roo_viralatas_domain_SolicitacaoAdocoes_descricao" property="descricao" z="1I3DJLj83ldKtpPFxpaVZjC2sSc="/>
+        </table:table>
+    </page:list>
+</div>

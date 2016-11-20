@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_viralatas_domain_HistoricoFeiraAnimais" idField="idHistoricoFeiraAnimal" modelAttribute="historicoFeiraAnimais" path="/historicofeiraanimaises" versionField="none" z="XY8Dkv18xJpf7Zfho2PYRsks9yM=">
+        <field:select field="idFeiraFeira" id="c_com_roo_viralatas_domain_HistoricoFeiraAnimais_idFeiraFeira" itemValue="idFeira" items="${feirases}" path="/feirases" z="hq/oowJ2cVuj+3y1tuhaNgbTwo4="/>
+        <field:select field="idAnimalAnimal" id="c_com_roo_viralatas_domain_HistoricoFeiraAnimais_idAnimalAnimal" itemValue="idAnimal" items="${animaises}" path="/animaises" z="VZfySkyiwGwbRopV5hWHhnPqFl8="/>
+        <field:datetime dateTimePattern="${historicoFeiraAnimais_dataregistro_date_format}" field="dataRegistro" id="c_com_roo_viralatas_domain_HistoricoFeiraAnimais_dataRegistro" required="true" z="jc8bGV9d+cm/N2GRId1SO1QfoSU="/>
+    </form:update>
+</div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_viralatas_domain_Prontuarios" idField="idProntuario" modelAttribute="prontuarios" path="/prontuarioses" versionField="none" z="otoTDnTeL2QTCGrEQ9IYOkyC2UE=">
+        <field:select field="idAnimalAnimal" id="c_com_roo_viralatas_domain_Prontuarios_idAnimalAnimal" itemValue="idAnimal" items="${animaises}" path="/animaises" z="wdmpQVEJwoMdwwPexNjX+wwCnS0="/>
+        <field:input field="registroAntiRabica" id="c_com_roo_viralatas_domain_Prontuarios_registroAntiRabica" z="j+EtA7wY8hL+3pxE8iK+oh+VSXs="/>
+        <field:input field="registroMultipla" id="c_com_roo_viralatas_domain_Prontuarios_registroMultipla" z="pkCXTA5o9qEe2FpYeYoLHOWBVzo="/>
+        <field:input field="registroCastracao" id="c_com_roo_viralatas_domain_Prontuarios_registroCastracao" z="oSraZSssYrxpXNH4a+Lx3YRYiSc="/>
+        <field:input field="controleParasitas" id="c_com_roo_viralatas_domain_Prontuarios_controleParasitas" z="tftYsbAVOLGzArfwlTOfz1+l1hY="/>
+        <field:datetime dateTimePattern="${prontuarios_datacontroleparasitas_date_format}" field="dataControleParasitas" id="c_com_roo_viralatas_domain_Prontuarios_dataControleParasitas" z="oWBDvsjc/J2NCg99ucgEfuGU7OI="/>
+        <field:input field="veterinarioResponsavelControleParasitas" id="c_com_roo_viralatas_domain_Prontuarios_veterinarioResponsavelControleParasitas" z="9duw3XTbDItNI5EEEr2eMmr4bsI="/>
+        <field:datetime dateTimePattern="${prontuarios_dataregistro_date_format}" field="dataRegistro" id="c_com_roo_viralatas_domain_Prontuarios_dataRegistro" z="kLZlAxv6qTgXCze5z/WdQBtXOak="/>
+        <field:input field="patologia" id="c_com_roo_viralatas_domain_Prontuarios_patologia" z="0Mb1cPJQ7YcSHN6JjREW2aLReYU="/>
+        <field:checkbox field="deformidade" id="c_com_roo_viralatas_domain_Prontuarios_deformidade" z="hQH+J0MVyfxYLMLDu7T1SqLXIQ4="/>
+    </form:update>
+</div>

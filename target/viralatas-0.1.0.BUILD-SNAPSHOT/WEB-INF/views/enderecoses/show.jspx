@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_viralatas_domain_Enderecos" object="${enderecos}" path="/enderecoses" z="bP/APBY5EF7CzfASe6RPuKuyHOw=">
+        <field:display field="idUsuarioUsuario" id="s_com_roo_viralatas_domain_Enderecos_idUsuarioUsuario" object="${enderecos}" z="z9jIZXaq2hOmWJ5fhArIUe+M+UQ="/>
+        <field:display field="idCidadeCidade" id="s_com_roo_viralatas_domain_Enderecos_idCidadeCidade" object="${enderecos}" z="o12bX7DqfzOuSHNM7q/GXGYs8uk="/>
+        <field:display field="rua" id="s_com_roo_viralatas_domain_Enderecos_rua" object="${enderecos}" z="4Uit7muYYxo75yFCTIcbumC13gA="/>
+        <field:display field="numero" id="s_com_roo_viralatas_domain_Enderecos_numero" object="${enderecos}" z="70A9uGVBMk6DY87JGdKGX200Oig="/>
+        <field:display field="complemento" id="s_com_roo_viralatas_domain_Enderecos_complemento" object="${enderecos}" z="kRhUhJocN8pXDSbi0DEZlgRjqKM="/>
+        <field:display field="cep" id="s_com_roo_viralatas_domain_Enderecos_cep" object="${enderecos}" z="iAY9+UZHS3CFb6WqKL1DlUkCHPk="/>
+        <field:display field="areaMoradia" id="s_com_roo_viralatas_domain_Enderecos_areaMoradia" object="${enderecos}" z="HgAXrLDgyaqjhfaI1QUBYcD1XFA="/>
+        <field:display field="tipoEndereco" id="s_com_roo_viralatas_domain_Enderecos_tipoEndereco" object="${enderecos}" z="/zeIFk+5sVqK2sk46e8xxoRtZZw="/>
+        <field:display field="bairro" id="s_com_roo_viralatas_domain_Enderecos_bairro" object="${enderecos}" z="YcKvGSW78IeM6WmMzW8UTRV4w3U="/>
+        <field:display field="telefone" id="s_com_roo_viralatas_domain_Enderecos_telefone" object="${enderecos}" z="Crt/kaYwIdX4WruOTBsnC7Uxvr4="/>
+        <field:display field="ativo" id="s_com_roo_viralatas_domain_Enderecos_ativo" object="${enderecos}" z="z0QS0sseE13WLLCt/zBr3sJ2bZo="/>
+    </page:show>
+</div>

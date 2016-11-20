@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_viralatas_domain_Acompanhamentos" idField="idAcompanhamento" modelAttribute="acompanhamentos" path="/acompanhamentoses" versionField="none" z="N7Nsf1oH8Wm7JaEBnwOLNB7GAFo=">
+        <field:select field="idUsuarioUsuario" id="c_com_roo_viralatas_domain_Acompanhamentos_idUsuarioUsuario" itemValue="idUsuario" items="${usuarioses}" path="/usuarioses" z="CPLiZT0UfpderXIZn5U2n86gE/Y="/>
+        <field:input field="idSolicitacaoAdocaoSolicitacaoAdocao" id="c_com_roo_viralatas_domain_Acompanhamentos_idSolicitacaoAdocaoSolicitacaoAdocao" required="true" validationMessageCode="field_invalid_integer" z="5UmvqMpVmbGST879ojNS8p/QQTE="/>
+        <field:input field="statusAcompanhamento" id="c_com_roo_viralatas_domain_Acompanhamentos_statusAcompanhamento" z="ALNOGk2XV/ro4Esq4BqbzGgNaxA="/>
+        <field:input field="comentario" id="c_com_roo_viralatas_domain_Acompanhamentos_comentario" z="WjX4cRhGi4K+DiVTluBnfq2RGYc="/>
+    </form:update>
+</div>

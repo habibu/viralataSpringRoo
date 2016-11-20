@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_HistoricoFeiraAnimais" items="${historicofeiraanimaises}" z="VYKuUBzY5N4Frt9gMybUuvAnd3M=">
+        <table:table data="${historicofeiraanimaises}" id="l_com_roo_viralatas_domain_HistoricoFeiraAnimais" path="/historicofeiraanimaises" typeIdFieldName="idHistoricoFeiraAnimal" z="a1eVgAQnU71Cb9v5sEe5eMVgxxQ=">
+            <table:column id="c_com_roo_viralatas_domain_HistoricoFeiraAnimais_idFeiraFeira" property="idFeiraFeira" z="0F1rj9itLWXcFepRZXYA8IyrgcY="/>
+            <table:column id="c_com_roo_viralatas_domain_HistoricoFeiraAnimais_idAnimalAnimal" property="idAnimalAnimal" z="/I/aTLtqPNxphWGpzt1jyRxZZ3o="/>
+            <table:column calendar="true" dateTimePattern="${historicoFeiraAnimais_dataregistro_date_format}" id="c_com_roo_viralatas_domain_HistoricoFeiraAnimais_dataRegistro" property="dataRegistro" z="/4QsnwRAnwN4aVKEJqOoBOKbvBM="/>
+        </table:table>
+    </page:list>
+</div>

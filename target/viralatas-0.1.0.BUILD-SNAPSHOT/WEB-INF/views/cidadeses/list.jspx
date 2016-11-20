@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_Cidades" items="${cidadeses}" z="DPsLXb8okfzpnS2lgWr8IsKd9GI=">
+        <table:table data="${cidadeses}" id="l_com_roo_viralatas_domain_Cidades" path="/cidadeses" typeIdFieldName="idCidade" z="+qnoJZezQCbLlCyQP8noMLZrRbE=">
+            <table:column id="c_com_roo_viralatas_domain_Cidades_nome" property="nome" z="ML+eRydOklLlBW1OLQj2HE3MjmY="/>
+            <table:column id="c_com_roo_viralatas_domain_Cidades_estado" property="estado" z="u5zBCDrUPtbJaP5s512OQsjWj1Q="/>
+        </table:table>
+    </page:list>
+</div>

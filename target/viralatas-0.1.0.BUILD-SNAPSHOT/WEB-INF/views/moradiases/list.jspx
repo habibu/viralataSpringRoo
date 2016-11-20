@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_Moradias" items="${moradiases}" z="v/Sisk4UCVbPW9PevQy8X9xmFYs=">
+        <table:table data="${moradiases}" id="l_com_roo_viralatas_domain_Moradias" path="/moradiases" typeIdFieldName="idMoradia" z="aywetjBep2MKXvbmFOeKUxF7ZwA=">
+            <table:column id="c_com_roo_viralatas_domain_Moradias_idAdotanteAdotante" property="idAdotanteAdotante" z="1ad1qJjsC5zcD1fiFUfUAjKpWT0="/>
+            <table:column id="c_com_roo_viralatas_domain_Moradias_idEnderecoEndereco" property="idEnderecoEndereco" z="F9ws5pTLZfSbAXaGdDqPD5L9WvQ="/>
+            <table:column id="c_com_roo_viralatas_domain_Moradias_idTipoMoradiaTipoMoradia" property="idTipoMoradiaTipoMoradia" z="IsGPxY9vC7nIXmcKVED/kz84+nY="/>
+        </table:table>
+    </page:list>
+</div>

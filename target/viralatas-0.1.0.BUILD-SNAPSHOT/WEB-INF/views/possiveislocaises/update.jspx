@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_viralatas_domain_PossiveisLocais" idField="idPossiveisLocais" modelAttribute="possiveisLocais" path="/possiveislocaises" versionField="none" z="Say+tBk97Pz0l2oZwGMk8mINno4=">
+        <field:select field="idCidadeCidade" id="c_com_roo_viralatas_domain_PossiveisLocais_idCidadeCidade" itemValue="idCidade" items="${cidadeses}" path="/cidadeses" z="t0ux+J5vyGHNGH75NPkneMEuiMM="/>
+        <field:input field="nome" id="c_com_roo_viralatas_domain_PossiveisLocais_nome" z="+NZI4YT7FJ2vG8JivQNDqmxIaYM="/>
+        <field:input field="longitude" id="c_com_roo_viralatas_domain_PossiveisLocais_longitude" validationMessageCode="field_invalid_number" z="qhrXjkUaSagWaIkZi/CzbO8h9+w="/>
+        <field:input field="latitude" id="c_com_roo_viralatas_domain_PossiveisLocais_latitude" validationMessageCode="field_invalid_number" z="g97KTBGjcukv1/qO9SMTO4r54Eo="/>
+    </form:update>
+</div>

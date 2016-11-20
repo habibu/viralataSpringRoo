@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_roo_viralatas_domain_Usuarios" idField="idUsuario" modelAttribute="usuarios" path="/usuarioses" versionField="none" z="LrYCKgjU/GRtR3Gdq7pzrK6Z91c=">
+        <field:simple field="acompanhamentoss" id="c_com_roo_viralatas_domain_Usuarios_acompanhamentoss" messageCode="entity_reference_not_managed" messageCodeAttribute="Acompanhamentos" z="g9si78gU2zEE0Db6n/UqEce67CA="/>
+        <field:simple field="adotanteses" id="c_com_roo_viralatas_domain_Usuarios_adotanteses" messageCode="entity_reference_not_managed" messageCodeAttribute="Adotantes" z="hL5tSMqRF9FxxBE+he/ZvLorKGo="/>
+        <field:simple field="enderecoss" id="c_com_roo_viralatas_domain_Usuarios_enderecoss" messageCode="entity_reference_not_managed" messageCodeAttribute="Enderecos" z="gJBOFRcCLLS60R4CtkZNY1MBx+0="/>
+        <field:simple field="solicitacaoAdocoeses" id="c_com_roo_viralatas_domain_Usuarios_solicitacaoAdocoeses" messageCode="entity_reference_not_managed" messageCodeAttribute="Solicitacao Adocoes" z="siW00gNLwCURZX+A3brFi4ZZFAI="/>
+        <field:input field="nome" id="c_com_roo_viralatas_domain_Usuarios_nome" z="c6s1pP8cMmEkrbo8LPo+ORz1G9w="/>
+        <field:input field="login" id="c_com_roo_viralatas_domain_Usuarios_login" z="C8Sj5NRDit1IrQaOCdvsWW24yNU="/>
+        <field:input field="senha" id="c_com_roo_viralatas_domain_Usuarios_senha" z="1dT8oOpXp4iCdqsysb3TK5al41s="/>
+        <field:datetime dateTimePattern="${usuarios_datanascimento_date_format}" field="dataNascimento" id="c_com_roo_viralatas_domain_Usuarios_dataNascimento" z="k1joDTBsJiTJBnNQz/Kf7kirwvM="/>
+        <field:input field="cpfCnpj" id="c_com_roo_viralatas_domain_Usuarios_cpfCnpj" z="MTTkHTKxFjlBsSKY/n64mqRNHRM="/>
+        <field:input field="empNomeFantasia" id="c_com_roo_viralatas_domain_Usuarios_empNomeFantasia" z="+xQje3nLK+wzbN2ACfKz8vm6+uU="/>
+        <field:input field="empRazaoSocial" id="c_com_roo_viralatas_domain_Usuarios_empRazaoSocial" z="eCLjRlsnG/DZjyB5pn/vNYX6IpE="/>
+        <field:input field="email" id="c_com_roo_viralatas_domain_Usuarios_email" validationMessageCode="field_invalid_email" z="HhXoIJSenci6SY0xCCUnWTVrR8M="/>
+        <field:input field="rg" id="c_com_roo_viralatas_domain_Usuarios_rg" z="hG4HfpqVK8Knq8upqmLbS+wVvjo="/>
+        <field:input field="tipoAcesso" id="c_com_roo_viralatas_domain_Usuarios_tipoAcesso" z="grNGILy/2JScNIo5rzEMDGSjo/g="/>
+        <field:input field="tipoPessoa" id="c_com_roo_viralatas_domain_Usuarios_tipoPessoa" z="Ae0r0tQqXMAF+bHXNrc2NgBZ8gQ="/>
+        <field:input field="telefoneCelular" id="c_com_roo_viralatas_domain_Usuarios_telefoneCelular" z="Gi7dS5njNB/cHUAL8AVvAKxDBSs="/>
+        <field:input field="foto" id="c_com_roo_viralatas_domain_Usuarios_foto" z="J/VXISRzvIPmifZgdIoaiihS89c="/>
+    </form:update>
+</div>

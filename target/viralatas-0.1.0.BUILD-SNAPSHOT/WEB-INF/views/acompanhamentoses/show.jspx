@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_viralatas_domain_Acompanhamentos" object="${acompanhamentos}" path="/acompanhamentoses" z="kqLNFWuS86dJTaRsC9ZdLe94C7E=">
+        <field:display field="idUsuarioUsuario" id="s_com_roo_viralatas_domain_Acompanhamentos_idUsuarioUsuario" object="${acompanhamentos}" z="W9Ds5fMilyv6lW0K4M7y93kz82Y="/>
+        <field:display field="idSolicitacaoAdocaoSolicitacaoAdocao" id="s_com_roo_viralatas_domain_Acompanhamentos_idSolicitacaoAdocaoSolicitacaoAdocao" object="${acompanhamentos}" z="0tOyNfPgizsmj3zd2cQYjnIOu2U="/>
+        <field:display field="statusAcompanhamento" id="s_com_roo_viralatas_domain_Acompanhamentos_statusAcompanhamento" object="${acompanhamentos}" z="x7Fim7rtF4PwQSdA618GMpDjxpQ="/>
+        <field:display field="comentario" id="s_com_roo_viralatas_domain_Acompanhamentos_comentario" object="${acompanhamentos}" z="UyDn0lakq72hzw9n5rnguGsdffM="/>
+    </page:show>
+</div>

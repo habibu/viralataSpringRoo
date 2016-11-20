@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_Acompanhamentos" items="${acompanhamentoses}" z="49L7d8dN/b4ta0FrJFV6o64xcEk=">
+        <table:table data="${acompanhamentoses}" id="l_com_roo_viralatas_domain_Acompanhamentos" path="/acompanhamentoses" typeIdFieldName="idAcompanhamento" z="NOtrrTtTSHxLcxABDMHQoCj+r1Q=">
+            <table:column id="c_com_roo_viralatas_domain_Acompanhamentos_idUsuarioUsuario" property="idUsuarioUsuario" z="o6hGQPp90rIcZEGDUR8l+j6e4Rk="/>
+            <table:column id="c_com_roo_viralatas_domain_Acompanhamentos_idSolicitacaoAdocaoSolicitacaoAdocao" property="idSolicitacaoAdocaoSolicitacaoAdocao" z="C7j+QMgvb4nZzwBhAVrrJi4kxv4="/>
+            <table:column id="c_com_roo_viralatas_domain_Acompanhamentos_statusAcompanhamento" property="statusAcompanhamento" z="3mM04VpZK8w13AeWZrDz1bz+G/c="/>
+            <table:column id="c_com_roo_viralatas_domain_Acompanhamentos_comentario" property="comentario" z="M+Rvhf1U41hwfJPv5/oHYd6RFdM="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="moradiases/list">
+        <put-attribute name="body" value="/WEB-INF/views/moradiases/list.jspx"/>
+    </definition>
+<definition extends="default" name="moradiases/show">
+        <put-attribute name="body" value="/WEB-INF/views/moradiases/show.jspx"/>
+    </definition>
+<definition extends="default" name="moradiases/create">
+        <put-attribute name="body" value="/WEB-INF/views/moradiases/create.jspx"/>
+    </definition>
+<definition extends="default" name="moradiases/update">
+        <put-attribute name="body" value="/WEB-INF/views/moradiases/update.jspx"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_TipoMoradias" items="${tipomoradiases}" z="QSUAjVBbHQLS/ELghAOtMPVFzg0=">
+        <table:table data="${tipomoradiases}" id="l_com_roo_viralatas_domain_TipoMoradias" path="/tipomoradiases" typeIdFieldName="idTipoMoradia" z="iyF+2TTSPn5Vtx+YEXWBtqkKYEg=">
+            <table:column id="c_com_roo_viralatas_domain_TipoMoradias_descricao" property="descricao" z="t7Vnf8G2vM2bmkE/5TgiAGIskfw="/>
+        </table:table>
+    </page:list>
+</div>

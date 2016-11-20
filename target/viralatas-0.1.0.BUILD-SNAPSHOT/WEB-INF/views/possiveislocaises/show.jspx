@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_viralatas_domain_PossiveisLocais" object="${possiveislocais}" path="/possiveislocaises" z="zkX7fn/xuGO1aUtarBZwKqGNtfc=">
+        <field:display field="idCidadeCidade" id="s_com_roo_viralatas_domain_PossiveisLocais_idCidadeCidade" object="${possiveislocais}" z="W2Ls/YMPdBwNDQBrb2I352/hrHo="/>
+        <field:display field="nome" id="s_com_roo_viralatas_domain_PossiveisLocais_nome" object="${possiveislocais}" z="9gjwakiwM/j1hzScCikYmawOyCI="/>
+        <field:display field="longitude" id="s_com_roo_viralatas_domain_PossiveisLocais_longitude" object="${possiveislocais}" z="dH50zqMCe8YRlEbW+NiEc7G2Tmk="/>
+        <field:display field="latitude" id="s_com_roo_viralatas_domain_PossiveisLocais_latitude" object="${possiveislocais}" z="+Mr8xlPp9iymIpI387O9TDQHsDU="/>
+    </page:show>
+</div>

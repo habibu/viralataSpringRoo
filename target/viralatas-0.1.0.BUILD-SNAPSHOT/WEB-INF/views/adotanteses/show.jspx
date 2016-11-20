@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_viralatas_domain_Adotantes" object="${adotantes}" path="/adotanteses" z="k6irP6hVIjzopvdUKlQ0WF+B7Ak=">
+        <field:display field="idUsuarioUsuario" id="s_com_roo_viralatas_domain_Adotantes_idUsuarioUsuario" object="${adotantes}" z="GtzwENawEE9ah+xHI2VCZvQW4yw="/>
+        <field:display field="rendaFamiliar" id="s_com_roo_viralatas_domain_Adotantes_rendaFamiliar" object="${adotantes}" z="EysC/o7qdNqpdZQ4jv2IlpiBmCs="/>
+        <field:display field="criancasEmCasa" id="s_com_roo_viralatas_domain_Adotantes_criancasEmCasa" object="${adotantes}" z="jS4MKBhAhTqVesgqr7hzEJhGOu4="/>
+        <field:display field="quantidadeanimais" id="s_com_roo_viralatas_domain_Adotantes_quantidadeanimais" object="${adotantes}" z="ZBXf63z2/uQ7h6M9ga/Vx0ckXF8="/>
+        <field:display field="reputacao" id="s_com_roo_viralatas_domain_Adotantes_reputacao" object="${adotantes}" z="PsyJtiIkZKWisoiU/KcyvOkWjPs="/>
+    </page:show>
+</div>

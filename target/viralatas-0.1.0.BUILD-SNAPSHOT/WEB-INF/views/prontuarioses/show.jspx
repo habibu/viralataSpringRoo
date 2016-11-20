@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_viralatas_domain_Prontuarios" object="${prontuarios}" path="/prontuarioses" z="PPRboxMvJgsforOXihEGED5WmiY=">
+        <field:display field="idAnimalAnimal" id="s_com_roo_viralatas_domain_Prontuarios_idAnimalAnimal" object="${prontuarios}" z="W/akcENGpFBXM2o/fM+DzNnA2Co="/>
+        <field:display field="registroAntiRabica" id="s_com_roo_viralatas_domain_Prontuarios_registroAntiRabica" object="${prontuarios}" z="4tdRXlqajBg6HSF8tAJqgzcF0V4="/>
+        <field:display field="registroMultipla" id="s_com_roo_viralatas_domain_Prontuarios_registroMultipla" object="${prontuarios}" z="8SNbgfW8DlARvBSMhBSg1Fg6zlI="/>
+        <field:display field="registroCastracao" id="s_com_roo_viralatas_domain_Prontuarios_registroCastracao" object="${prontuarios}" z="93CIn90dYgYXvWJUVznhjMMxlEk="/>
+        <field:display field="controleParasitas" id="s_com_roo_viralatas_domain_Prontuarios_controleParasitas" object="${prontuarios}" z="WdwOxhDA78chvrYt1bopUx8PGU8="/>
+        <field:display date="true" dateTimePattern="${prontuarios_datacontroleparasitas_date_format}" field="dataControleParasitas" id="s_com_roo_viralatas_domain_Prontuarios_dataControleParasitas" object="${prontuarios}" z="ytbdH/+LW4yzg61ZSxWn0819pOs="/>
+        <field:display field="veterinarioResponsavelControleParasitas" id="s_com_roo_viralatas_domain_Prontuarios_veterinarioResponsavelControleParasitas" object="${prontuarios}" z="5V/NRTG93kgET723NH0FWbwIR1A="/>
+        <field:display date="true" dateTimePattern="${prontuarios_dataregistro_date_format}" field="dataRegistro" id="s_com_roo_viralatas_domain_Prontuarios_dataRegistro" object="${prontuarios}" z="XijRZrsGTMHqcFg35Fyqtzuklts="/>
+        <field:display field="patologia" id="s_com_roo_viralatas_domain_Prontuarios_patologia" object="${prontuarios}" z="38MowhN1ANN25a1woaFMo8SxoNs="/>
+        <field:display field="deformidade" id="s_com_roo_viralatas_domain_Prontuarios_deformidade" object="${prontuarios}" z="90Bu/PQbWoePIOBNPHsgaxXALaY="/>
+    </page:show>
+</div>

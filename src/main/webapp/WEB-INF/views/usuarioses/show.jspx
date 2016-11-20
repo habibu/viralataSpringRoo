@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_viralatas_domain_Usuarios" object="${usuarios}" path="/usuarioses" z="SvOl7a7mpjiGOwhGkoFoKWpK+TA=">
+        <field:display field="nome" id="s_com_roo_viralatas_domain_Usuarios_nome" object="${usuarios}" z="k4dazF4zqBKsrcnywAXjJD6VTz8="/>
+        <field:display field="login" id="s_com_roo_viralatas_domain_Usuarios_login" object="${usuarios}" z="mgOH17627uZh9x0TbLX2wgbQYsU="/>
+        <field:display field="senha" id="s_com_roo_viralatas_domain_Usuarios_senha" object="${usuarios}" z="BpLE3lFMUtHLvrbDrPr6r72NMjQ="/>
+        <field:display date="true" dateTimePattern="${usuarios_datanascimento_date_format}" field="dataNascimento" id="s_com_roo_viralatas_domain_Usuarios_dataNascimento" object="${usuarios}" z="kyHaUYaGwojG6rBym1eqn21Pyao="/>
+        <field:display field="cpfCnpj" id="s_com_roo_viralatas_domain_Usuarios_cpfCnpj" object="${usuarios}" z="gotCZClztPAh3E3C0jlyTUbOVwc="/>
+        <field:display field="empNomeFantasia" id="s_com_roo_viralatas_domain_Usuarios_empNomeFantasia" object="${usuarios}" z="FOe0nvhY/2RtaimgI2bWaUqd9+M="/>
+        <field:display field="empRazaoSocial" id="s_com_roo_viralatas_domain_Usuarios_empRazaoSocial" object="${usuarios}" z="zPIPMexr80YeWFClwCJcbQg4KeI="/>
+        <field:display field="email" id="s_com_roo_viralatas_domain_Usuarios_email" object="${usuarios}" z="i2vbUPEtOdDLjolvz/bYOJzlLdA="/>
+        <field:display field="rg" id="s_com_roo_viralatas_domain_Usuarios_rg" object="${usuarios}" z="Je3Z6M0xu64ofiSpFOWWvfQnr1U="/>
+        <field:display field="tipoAcesso" id="s_com_roo_viralatas_domain_Usuarios_tipoAcesso" object="${usuarios}" z="ZDN2gBlMw3Pind1wDisyzCv5h80="/>
+        <field:display field="tipoPessoa" id="s_com_roo_viralatas_domain_Usuarios_tipoPessoa" object="${usuarios}" z="IsdFW3vPOgUwgziUmoqqiEV91zI="/>
+        <field:display field="telefoneCelular" id="s_com_roo_viralatas_domain_Usuarios_telefoneCelular" object="${usuarios}" z="XVqO0rc48wpdXlZkqyU/9i2NK7M="/>
+        <field:display field="foto" id="s_com_roo_viralatas_domain_Usuarios_foto" object="${usuarios}" z="BzY2tNRueQQr3htIB5PNpGYIZLc="/>
+    </page:show>
+</div>

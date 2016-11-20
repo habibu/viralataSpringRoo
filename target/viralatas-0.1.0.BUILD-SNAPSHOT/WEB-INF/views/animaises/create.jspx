@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_roo_viralatas_domain_Animais" modelAttribute="animais" path="/animaises" render="${empty dependencies}" z="QJXalEU1mKnJYYSIpoUpsm7Hyzo=">
+        <field:simple field="historicoFeiraAnimaiss" id="c_com_roo_viralatas_domain_Animais_historicoFeiraAnimaiss" messageCode="entity_reference_not_managed" messageCodeAttribute="Historico Feira Animais" z="rP1MrX8KPXAPU/AyiYVJ0AjaxAg="/>
+        <field:simple field="prontuarioss" id="c_com_roo_viralatas_domain_Animais_prontuarioss" messageCode="entity_reference_not_managed" messageCodeAttribute="Prontuarios" z="yThY9N1Iz9Wf2uOCy3h397SPXZ0="/>
+        <field:simple field="solicitacaoAdocoeses" id="c_com_roo_viralatas_domain_Animais_solicitacaoAdocoeses" messageCode="entity_reference_not_managed" messageCodeAttribute="Solicitacao Adocoes" z="iQCaJQXgsI5UFrVmPEpHI7TpaFM="/>
+        <field:select field="idFeiraFeira" id="c_com_roo_viralatas_domain_Animais_idFeiraFeira" itemValue="idFeira" items="${feirases}" path="/feirases" z="1eAGfDuyBJk0bSmIRzQsWvLsGIA="/>
+        <field:input field="nome" id="c_com_roo_viralatas_domain_Animais_nome" z="Qh1AOu2R4ID4CIrI3SeGeQio7/E="/>
+        <field:datetime dateTimePattern="${animais_datanascimento_date_format}" field="dataNascimento" id="c_com_roo_viralatas_domain_Animais_dataNascimento" z="EFlwuK6w+ypYhmYVxy3Z8RISsOk="/>
+        <field:input field="raca" id="c_com_roo_viralatas_domain_Animais_raca" z="OinNI/2kQmFP1vn1K928WLzcpHA="/>
+        <field:input field="cor" id="c_com_roo_viralatas_domain_Animais_cor" z="DFvF7ppDy+XvtOmFWi/luW92jFc="/>
+        <field:input field="especie" id="c_com_roo_viralatas_domain_Animais_especie" z="MjTt8oeoxRNosz5/2itlb8uhvp8="/>
+        <field:input field="pelagem" id="c_com_roo_viralatas_domain_Animais_pelagem" z="7HULmz8PZGzPJISGtQkz5Cq5pYQ="/>
+        <field:checkbox field="deformidade" id="c_com_roo_viralatas_domain_Animais_deformidade" z="OmzKKi/BanNIevhjJme0h7Ac42A="/>
+        <field:input field="porte" id="c_com_roo_viralatas_domain_Animais_porte" z="UlvrH4+X41Ls6q9kUmS0TA8VgLM="/>
+        <field:input field="resenha" id="c_com_roo_viralatas_domain_Animais_resenha" z="74x1obJQRTIK/mcbKnJPyOX4lOs="/>
+        <field:datetime dateTimePattern="${animais_datacadastro_date_format}" field="dataCadastro" id="c_com_roo_viralatas_domain_Animais_dataCadastro" z="7fj0GjdG1yqjGJJeS7rFoLQaP9U="/>
+        <field:input field="foto" id="c_com_roo_viralatas_domain_Animais_foto" z="oJuC04EwA+NArdJmtXjQpchKgLw="/>
+        <field:input field="localidadeLongitude" id="c_com_roo_viralatas_domain_Animais_localidadeLongitude" validationMessageCode="field_invalid_number" z="Y7k62HjWiZoDKN9b0usWlq/LNy8="/>
+        <field:input field="localidadeLatitude" id="c_com_roo_viralatas_domain_Animais_localidadeLatitude" validationMessageCode="field_invalid_number" z="+ya2uEkQnNAEPtnQpeuJBmSVsMw="/>
+        <field:input field="idSituacaoSituacao" id="c_com_roo_viralatas_domain_Animais_idSituacaoSituacao" validationMessageCode="field_invalid_integer" z="+J9dw95nTvR28kjWi7Y4gfIbEWw="/>
+        <field:input field="codigoAnimal" id="c_com_roo_viralatas_domain_Animais_codigoAnimal" z="K6c331KkwV93iijLQAg5hH0GBZo="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_roo_viralatas_domain_Animais" render="${not empty dependencies}" z="g8rwwj6/Z8CYNRjHruU2w1q9brU="/>
+</div>

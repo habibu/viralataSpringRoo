@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="prontuarioses/list">
+        <put-attribute name="body" value="/WEB-INF/views/prontuarioses/list.jspx"/>
+    </definition>
+<definition extends="default" name="prontuarioses/show">
+        <put-attribute name="body" value="/WEB-INF/views/prontuarioses/show.jspx"/>
+    </definition>
+<definition extends="default" name="prontuarioses/create">
+        <put-attribute name="body" value="/WEB-INF/views/prontuarioses/create.jspx"/>
+    </definition>
+<definition extends="default" name="prontuarioses/update">
+        <put-attribute name="body" value="/WEB-INF/views/prontuarioses/update.jspx"/>
+    </definition>
+</tiles-definitions>

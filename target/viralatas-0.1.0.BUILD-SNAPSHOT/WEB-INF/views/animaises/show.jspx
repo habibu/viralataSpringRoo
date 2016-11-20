@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_viralatas_domain_Animais" object="${animais}" path="/animaises" z="Ls3B43UkmK3GM4WmuLEH5CEqtTE=">
+        <field:display field="idFeiraFeira" id="s_com_roo_viralatas_domain_Animais_idFeiraFeira" object="${animais}" z="tAEEUuhgMO9nCMvZRxKPO1xHU6M="/>
+        <field:display field="nome" id="s_com_roo_viralatas_domain_Animais_nome" object="${animais}" z="SeqQs2rEZWSJtGUwQey1Ic+FN0s="/>
+        <field:display date="true" dateTimePattern="${animais_datanascimento_date_format}" field="dataNascimento" id="s_com_roo_viralatas_domain_Animais_dataNascimento" object="${animais}" z="B01V8IzJrp7gaM/6AJqFDXBvdPM="/>
+        <field:display field="raca" id="s_com_roo_viralatas_domain_Animais_raca" object="${animais}" z="ojEP/H41iPSW8F1H73tAIVWh1L0="/>
+        <field:display field="cor" id="s_com_roo_viralatas_domain_Animais_cor" object="${animais}" z="QWVactrYJu/movejdoFhlS6tN7c="/>
+        <field:display field="especie" id="s_com_roo_viralatas_domain_Animais_especie" object="${animais}" z="KuEKzozdQ4z53VeLsJVBD0ZCTl8="/>
+        <field:display field="pelagem" id="s_com_roo_viralatas_domain_Animais_pelagem" object="${animais}" z="lJNgR99AN01S8b+RU6e1+vN4P9s="/>
+        <field:display field="deformidade" id="s_com_roo_viralatas_domain_Animais_deformidade" object="${animais}" z="5XIwO2/7siI/X6mxKwiKKIC3Tyc="/>
+        <field:display field="porte" id="s_com_roo_viralatas_domain_Animais_porte" object="${animais}" z="RdehGOcK+GS/kNNomEbJKLuACJs="/>
+        <field:display field="resenha" id="s_com_roo_viralatas_domain_Animais_resenha" object="${animais}" z="j5rnlJzZiroXglx4nKydHqTHFY0="/>
+        <field:display date="true" dateTimePattern="${animais_datacadastro_date_format}" field="dataCadastro" id="s_com_roo_viralatas_domain_Animais_dataCadastro" object="${animais}" z="AHQ2puxGeKe5ligwTiCp5rf5rSI="/>
+        <field:display field="foto" id="s_com_roo_viralatas_domain_Animais_foto" object="${animais}" z="Rk0+FQFw7mTs+ksL/bQHHlDU8E0="/>
+        <field:display field="localidadeLongitude" id="s_com_roo_viralatas_domain_Animais_localidadeLongitude" object="${animais}" z="DyGKgNNeK2nY9SpZ1Le1ITNtmkc="/>
+        <field:display field="localidadeLatitude" id="s_com_roo_viralatas_domain_Animais_localidadeLatitude" object="${animais}" z="XC5AFiy8WR8mL8HpXTELal/jRC8="/>
+        <field:display field="idSituacaoSituacao" id="s_com_roo_viralatas_domain_Animais_idSituacaoSituacao" object="${animais}" z="rqGaqUW32CMIUlHSg4kt/N5vVVI="/>
+        <field:display field="codigoAnimal" id="s_com_roo_viralatas_domain_Animais_codigoAnimal" object="${animais}" z="WED6fIVU3GVdTFpeceGXWQoqdmU="/>
+    </page:show>
+</div>

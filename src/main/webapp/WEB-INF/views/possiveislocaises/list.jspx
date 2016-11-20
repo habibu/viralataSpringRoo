@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_PossiveisLocais" items="${possiveislocaises}" z="ZPRBJza3Zx/TvdymB+PKNerB8oA=">
+        <table:table data="${possiveislocaises}" id="l_com_roo_viralatas_domain_PossiveisLocais" path="/possiveislocaises" typeIdFieldName="idPossiveisLocais" z="O/V6HIR32YrOydXklhIrF5NOUhk=">
+            <table:column id="c_com_roo_viralatas_domain_PossiveisLocais_idCidadeCidade" property="idCidadeCidade" z="AFk51V+u/vQeC8CYc+03EbsYVh0="/>
+            <table:column id="c_com_roo_viralatas_domain_PossiveisLocais_nome" property="nome" z="Y5/4TLQgquhRlmIXu/uaii82xDQ="/>
+            <table:column id="c_com_roo_viralatas_domain_PossiveisLocais_longitude" property="longitude" z="z8BJsMwZuIq2lmwRg+Fx/W/rRj4="/>
+            <table:column id="c_com_roo_viralatas_domain_PossiveisLocais_latitude" property="latitude" z="4hZHigPXp3W10nD99ysRqn8DO+M="/>
+        </table:table>
+    </page:list>
+</div>

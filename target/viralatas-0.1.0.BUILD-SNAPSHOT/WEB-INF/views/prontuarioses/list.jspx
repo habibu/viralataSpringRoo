@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_Prontuarios" items="${prontuarioses}" z="v68TjI1dBC9Sggqiq3ozXT6IqNE=">
+        <table:table data="${prontuarioses}" id="l_com_roo_viralatas_domain_Prontuarios" path="/prontuarioses" typeIdFieldName="idProntuario" z="npAW4DpZi9ZBiSm1LQNLQnwvTlY=">
+            <table:column id="c_com_roo_viralatas_domain_Prontuarios_idAnimalAnimal" property="idAnimalAnimal" z="U6XK4haTyDELGyExzEFq2DDwCFU="/>
+            <table:column id="c_com_roo_viralatas_domain_Prontuarios_registroAntiRabica" property="registroAntiRabica" z="76Rd2oZ+som9fC41/pcsQLEQ1Q4="/>
+            <table:column id="c_com_roo_viralatas_domain_Prontuarios_registroMultipla" property="registroMultipla" z="9thNN+i236d9LuVjOYaso0/lTWQ="/>
+            <table:column id="c_com_roo_viralatas_domain_Prontuarios_registroCastracao" property="registroCastracao" z="LwsUHFObi3Ni2bt/3e6dh1PO+RQ="/>
+            <table:column id="c_com_roo_viralatas_domain_Prontuarios_controleParasitas" property="controleParasitas" z="8OeCPEhqntUX8cDsQdaLejBO59s="/>
+            <table:column date="true" dateTimePattern="${prontuarios_datacontroleparasitas_date_format}" id="c_com_roo_viralatas_domain_Prontuarios_dataControleParasitas" property="dataControleParasitas" z="FDQZfwwTFA+WdsQF7k+ex/pRNwg="/>
+        </table:table>
+    </page:list>
+</div>

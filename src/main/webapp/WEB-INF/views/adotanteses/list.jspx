@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_viralatas_domain_Adotantes" items="${adotanteses}" z="Kn8vjeocgxoK114I6VYuLbm4ywI=">
+        <table:table data="${adotanteses}" id="l_com_roo_viralatas_domain_Adotantes" path="/adotanteses" typeIdFieldName="idAdotante" z="skOqfcqPQ/uGD0UWiToJaZPr0nY=">
+            <table:column id="c_com_roo_viralatas_domain_Adotantes_idUsuarioUsuario" property="idUsuarioUsuario" z="GK1CC5NiS1t1oblJRcgJ9y4caYs="/>
+            <table:column id="c_com_roo_viralatas_domain_Adotantes_rendaFamiliar" property="rendaFamiliar" z="Ry1DHUrszqn0BEaQoAnnX0myMtE="/>
+            <table:column id="c_com_roo_viralatas_domain_Adotantes_criancasEmCasa" property="criancasEmCasa" z="droBvl70Wv+2RIafeaWecfEI5v4="/>
+            <table:column id="c_com_roo_viralatas_domain_Adotantes_quantidadeanimais" property="quantidadeanimais" z="n/ZwfBD7sTjGY6KTw76noZWyDG8="/>
+            <table:column id="c_com_roo_viralatas_domain_Adotantes_reputacao" property="reputacao" z="FxF+BGYxx+gNLcubmdvZJL6iQNI="/>
+        </table:table>
+    </page:list>
+</div>

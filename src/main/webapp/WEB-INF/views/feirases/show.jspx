@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_viralatas_domain_Feiras" object="${feiras}" path="/feirases" z="bARnaD2Ecf4o/Xh8E7ojwGFBjFw=">
+        <field:display field="idCidadeCidade" id="s_com_roo_viralatas_domain_Feiras_idCidadeCidade" object="${feiras}" z="MYkZuFRxTgU0Qc7OhMYOM/6rhVU="/>
+        <field:display field="nomeFeira" id="s_com_roo_viralatas_domain_Feiras_nomeFeira" object="${feiras}" z="YKCStuUYFdnlpwT17UMvHhP850E="/>
+        <field:display calendar="true" dateTimePattern="${feiras_datainicio_date_format}" field="dataInicio" id="s_com_roo_viralatas_domain_Feiras_dataInicio" object="${feiras}" z="fsaQQj/S9PSoIZD8y+J/jQH0G5M="/>
+        <field:display calendar="true" dateTimePattern="${feiras_dataencerramento_date_format}" field="dataEncerramento" id="s_com_roo_viralatas_domain_Feiras_dataEncerramento" object="${feiras}" z="/6kafmm0b1b67z7TykncYqysrow="/>
+        <field:display field="numeroanimais" id="s_com_roo_viralatas_domain_Feiras_numeroanimais" object="${feiras}" z="X6fR851sfZp6/KL/secGxaEHdo0="/>
+        <field:display field="animaisAdotados" id="s_com_roo_viralatas_domain_Feiras_animaisAdotados" object="${feiras}" z="MSZ4sKKqFej5i0As0IVFNUfWFWA="/>
+        <field:display field="longitude" id="s_com_roo_viralatas_domain_Feiras_longitude" object="${feiras}" z="wVnwbGGop5Fq6OJ/nmzWk3B0Q1k="/>
+        <field:display field="latitude" id="s_com_roo_viralatas_domain_Feiras_latitude" object="${feiras}" z="flhfUbdu0H7rzV/AxF3X9iGRNW4="/>
+        <field:display field="idpossiveisLocaisPossiveisLocais" id="s_com_roo_viralatas_domain_Feiras_idpossiveisLocaisPossiveisLocais" object="${feiras}" z="lhsqo8gBLicVTPK0B4j4DsvXBzc="/>
+        <field:display field="ativo" id="s_com_roo_viralatas_domain_Feiras_ativo" object="${feiras}" z="2UEjaqdykV3f1Ogi7J9CdHa2eCw="/>
+    </page:show>
+</div>

@@ -1,0 +1,38 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2016-11-13 23:03:29
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2016-11-13 23:03:53
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2016-11-13 23:08:04
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2016-11-13 23:08:11
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2016-11-13 23:12:14
+download status
+download accept terms of use
+project  --topLevelPackage com.roo.viralatas 
+hint
+jpa setup --database MYSQL --provider HIBERNATE --databaseName viralatas --userName root --password tor --hostName localhost
+addon search mysql
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml
+osgi obr start --bundleSymbolicName org.springframework.roo.wrapping.mysql-connector-java
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml
+addon install id --searchResultId 01
+database introspect --schema DatabseSchema
+database reverse engineer --schema DatabaseSchema --package ~.domain
+web mvc setup
+web mvc all --package ~.web
+// [failed] test integration --entity 
+perform tests
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2016-11-13 23:41:22
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2016-11-13 23:56:43
+// [failed] test integration --entity ~.domain
+// [failed] test integration --entity com.roo.viralatas
+// [failed] test integration --entity ~.web
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2016-11-14 00:02:49
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2016-11-14 00:22:09
+perform tests
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2016-11-14 00:26:21
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2016-11-14 01:00:11
+quit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2016-11-14 01:17:18
